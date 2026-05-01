@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--
+    Software Developer Resume
+    Author: Julie Lowry-Sheridan
+    Date: 4/25/2026 
+    Project: Final Portfolio Website
+    Filename: index.html
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julie Lowry-Sheridan | Software Development Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <video class="page-video" autoplay muted loop>
+        <source src="video/302098_medium.mp4" type="video/mp4">
+    </video>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+        <img src="images/IMG_3685.JPG" alt="" Julie Lowry-Sheridan" class="profile-pic">
+        <h1>Julie Lowry-Sheridan</h1>
+        <p>Software Development Student</p>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>
+                Welcome to my Software Development Online Resume. I am a software
+                development student building skills in programming, databases,
+                networking, and web design.
+            </p>
+
+            <form id="welcomeForm">
+                <p>
+                    <label for="visitorName">Visitor Name:</label>
+                    <input type="text" id="visitorName" name="visitorName">
+                </p>
+                <p>I am visiting as:</p>
+                <div class="radio-group">
+                    <input type="radio" id="recruiter" name="visitorType" value="Recruiter">
+                    <label for="recruiter" class="radio-card">Recruiter</label>
+
+                    <input type="radio" id="professor" name="visitorType" value="professor">
+                    <label for="professor" class="radio-card">Professor</label>
+
+                    <input type="radio" id="visitor" name="visitorType" value="visitor">
+                    <label for="visitor" class="radio-card">Visitor</label>
+                </div>
+                <p>
+                    <input type="submit" value="submit">
+                </p>
+            </form>
+            <p id="welcomeMessage"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Julie Lowry-Sheridan</p>
+    </footer>
+
+    <audio id="onLoad" autoplay>
+        <source src="audio/alexzavesa-calm-elegant-logo-519008.mp3" type="audio/mpeg">
+    </audio>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
