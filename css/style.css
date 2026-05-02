@@ -19,15 +19,14 @@ Filename:style.css
     position: relative;
  }
  .profile-pic {
-   position: absolute;
-   top: 35px;
-   left: 450px;
+   display: block;
    width: 80px;
    height: 80px;
    object-fit: cover;
    border-radius: 50%;
    border: 3px solid rgb(56, 189, 248);
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+   margin: 10px auto;
  }
  header h1 {
     margin: 0;
@@ -335,4 +334,25 @@ Filename:style.css
    font-size: 18px;
    font-weight: bold;
    color: rgb(56, 189, 248);
+ }
+ @media screen and(max-width: 768px) {
+  nav {
+    position: static;
+    text-align: center;
+  }
+  nav li {
+    display: block;
+    margin: 10px;
+  }
+  .profile-pic {
+    position: static;
+    display: block;
+    margin: 0 auto 15px;
+  }
+  main {
+    padding: 15px;
+  }
+  section {
+    padding: 18px;
+  }
  }
